@@ -436,6 +436,18 @@ section {
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
+.facts {
+  text-align: left; /* Ensures overall text alignment in the .facts section is left */
+}
+
+.facts .section-title, .facts .section-title h2, .facts .section-title p {
+  text-align: left; /* Aligns section titles and paragraphs to the left */
+}
+
+.facts ul, .facts li {
+  text-align: left; /* Ensures list items are also aligned to the left */
+}
+
 .facts .count-box {
   padding: 30px 30px 25px 30px;
   margin-top: 30px;
